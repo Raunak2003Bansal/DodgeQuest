@@ -7,7 +7,7 @@ def main():
     width, height = screen.get_size()
     pygame.display.set_caption("Dodge Quest")
     screen.fill((30,30,30))
-    pygame.draw.rect(screen, (255,255,255), (width // 4, height // 4, width // 2, height // 2))
+    pygame.draw.rect(screen, (255,255,255), (width // 4, height // 4, width // 2, height // 4))
     pygame.display.flip()
     running = True
     while running:
