@@ -1,0 +1,1 @@
+A 2D arcade survival game built with Python and Pygame. Developed step by step to explore game loops, keyboard input, collision detection, object movement, scoring, and game design fundamentals.

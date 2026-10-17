@@ -1,0 +1,19 @@
+[project]
+name = "dodgequest"
+version = "0.1.0"
+description = "A 2D arcade survival game built with Python and Pygame. Developed step by step to explore game loops, keyboard input, collision detection, object movement, scoring, and game design fundamentals."
+readme = "README.md"
+authors = [
+    { name = "Raunak Bansal", email = "raunakbansal2003@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "pygame>=2.6.1",
+]
+
+[project.scripts]
+dodgequest = "dodgequest.main:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
